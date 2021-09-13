@@ -365,7 +365,7 @@ figure img:hover {
 
 
 .init-testimonial {
-  margin-bottom: 20%;
+  margin-bottom:10%;
 }
 .carousel-inner .item {
   height:350px;
@@ -422,7 +422,7 @@ figure img:hover {
   font-size:40px;
   font-weight: 600;
 }
-hr{
+.init-width-dimension{
   width: 25%;
 }
 .init-testimonial-profile{
@@ -478,4 +478,53 @@ ol.carousel-indicators li.active {
 }
 ol.carousel-indicators li.active {
   background:gray;
+}
+
+
+/* 
+    Footer the last section
+*/
+
+footer{
+  background-color: #2d2d2d;
+  margin-bottom: 20%;
+}
+.init-footer-content{
+  margin-bottom: 2%;
+}
+.init-footer-content h1,.init-footer-content p{
+  color:#fff;
+}
+.init-footer-content p{
+  opacity: 0.8;
+}
+.init-footer-content p .init-footer-links i{
+  text-align: center;
+  height: 15px;
+  width: 15px;
+  color: #242424;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.init-footer-content p  a{
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.init-footer-content p  a:hover{
+  text-decoration: none;
+  color: #fff;
+  opacity:1;
+}
+.init-footer-contact .init-footer-icons i{
+  
+  font-size:18px;
+  padding: 1%;
+  border-radius: 5px;
+}
+.init-footer-contact .init-footer-icons i:nth-child(1){
+  color: #fff;
+  background-color:#242424;
+  
 }
