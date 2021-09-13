@@ -6,11 +6,9 @@
   font-family: "Work Sans", sans-serif;
 }
 
-
 /* 
     Home page Header 
 */
-
 
 .init-header-top {
   background-color: #096bdb;
@@ -36,11 +34,9 @@
   margin-right: 5px;
 }
 
-
 /* 
     Home page Navigational bar 
 */
-
 
 .init-nav-header {
   background-color: #fff;
@@ -62,7 +58,7 @@ ul li {
 }
 ul li a,
 .init-apply-btn a,
-.init-home-btn a{
+.init-home-btn a,.init-home-down-btn {
   text-decoration: none;
   font-weight: 600;
   font-size: 19px;
@@ -72,7 +68,7 @@ ul li a:hover {
   text-decoration: none;
 }
 .init-apply-btn a,
-.init-home-btn a {
+.init-home-btn a,.init-home-down-btn a {
   color: #fff;
 }
 .init-apply-btn,
@@ -83,7 +79,13 @@ ul li a:hover {
   border-radius: 5px;
   padding: 8px 25px;
 }
-.init-home-btn {
+.init-home-down-btn{
+  border: 1px solid #fff;
+  margin-left: 8%;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+.init-home-btn,.init-home-down-btn{
   margin-left: 0;
   display: inline-block;
   margin: 1% 0 0 0;
@@ -99,11 +101,9 @@ ul li a:hover {
   text-decoration: none;
 }
 
-
 /* 
     Home page From here  
 */
-
 
 header .item {
   height: 80vh;
@@ -169,7 +169,8 @@ header .owl-item.active h1 {
   animation-delay: 0.3s;
 }
 header .owl-item.active h2,
-header .owl-item.active .init-home-btn {
+header .owl-item.active .init-home-btn,
+header .owl-item.active .init-home-down-btn {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -254,11 +255,9 @@ header:hover .owl-next {
   opacity: 1;
 }
 
-
 /*  
     About History Section 
 */
-
 
 .init-history {
   margin-top: 8%;
@@ -291,11 +290,9 @@ figure img:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
-
 /* 
     Seat section starts from here 
 */
-
 
 .init-seat-section {
   margin-top: 8%;
@@ -358,17 +355,15 @@ figure img:hover {
   color: #fff;
 }
 
-
 /* 
     This is the testimonial section Slider
 */
 
-
 .init-testimonial {
-  margin-bottom:10%;
+  margin-bottom: 10%;
 }
 .carousel-inner .item {
-  height:350px;
+  height: 350px;
   background-color: #fff;
 }
 .carousel-inner .item:after {
@@ -393,11 +388,9 @@ figure img:hover {
   margin-right: -10px;
 }
 
-
 /* 
     Media Queries for testimonial section
 */
-
 
 @media screen and (min-width: 768px) {
   .carousel-control .fa {
@@ -417,48 +410,48 @@ figure img:hover {
 .left.carousel-control {
   display: none;
 }
-.init-testimonial-head p{
-  color:#096bdb;
-  font-size:40px;
+.init-testimonial-head p {
+  color: #096bdb;
+  font-size: 40px;
   font-weight: 600;
 }
-.init-width-dimension{
+.init-width-dimension {
   width: 25%;
 }
-.init-testimonial-profile{
+.init-testimonial-profile {
   height: 70px;
   width: 70px;
 }
-.init-testimonial-profile img{
+.init-testimonial-profile img {
   height: auto;
   width: 90%;
   border-radius: 50%;
   padding: 2%;
 }
-.carousel-caption p{
+.carousel-caption p {
   color: #7a7a7a;
   padding: 2% 15% 5% 15%;
   font-weight: 300;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 500;
 }
-.name,.desc{
-  color:#7a7a7a;
-  
-}
-
-.carousel-caption p:before{
-  content:open-quote;
-  position: absolute;
-  font-size:70px;
-  margin:-3% 0 0 -5%;
+.name,
+.desc {
   color: #7a7a7a;
 }
-.carousel-caption p:after{
-  content:close-quote;
+
+.carousel-caption p:before {
+  content: open-quote;
   position: absolute;
-  font-size:70px;
-  margin:-3% 0 0 3%  ;
+  font-size: 70px;
+  margin: -3% 0 0 -5%;
+  color: #7a7a7a;
+}
+.carousel-caption p:after {
+  content: close-quote;
+  position: absolute;
+  font-size: 70px;
+  margin: -3% 0 0 3%;
   color: #7a7a7a;
 }
 @media screen and (min-width: 768px) {
@@ -473,32 +466,28 @@ figure img:hover {
 }
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
-  background:transparent;
+  background: transparent;
   border: 1px solid gray;
 }
 ol.carousel-indicators li.active {
-  background:gray;
+  background: gray;
 }
-
 
 /* 
     Footer the last section
 */
 
-footer{
+footer {
   background-color: #2d2d2d;
-  margin-bottom: 20%;
 }
-.init-footer-content{
-  margin-bottom: 2%;
+.init-footer-content h1,
+.init-footer-content p {
+  color: #fff;
 }
-.init-footer-content h1,.init-footer-content p{
-  color:#fff;
-}
-.init-footer-content p{
+.init-footer-content p {
   opacity: 0.8;
 }
-.init-footer-content p .init-footer-links i{
+.init-footer-content p .init-footer-links i {
   text-align: center;
   height: 15px;
   width: 15px;
@@ -506,25 +495,72 @@ footer{
   background-color: #fff;
   border-radius: 50px;
 }
-.init-footer-content p  a{
+.init-footer-content p a {
   text-decoration: none;
   color: #fff;
-  opacity: 0.8;
+  opacity:0.8;
 }
 
-.init-footer-content p  a:hover{
+.init-footer-content p a:hover {
   text-decoration: none;
   color: #fff;
   opacity:1;
 }
-.init-footer-contact .init-footer-icons i{
-  
-  font-size:18px;
-  padding: 1%;
+.init-footer-contact .init-footer-icons i {
+  font-size: 20px;
+  padding: 6px;
   border-radius: 5px;
-}
-.init-footer-contact .init-footer-icons i:nth-child(1){
+  background-color: #181818;
   color: #fff;
-  background-color:#242424;
+  text-align: center;
+  transition: 0.3s all linear;
+}
+.init-social-icons a .link:hover {
+  background-color: #3b77b7;
+}
+.init-social-icons a .insta:hover {
   
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.init-social-icons a .tweet:hover {
+  background-color: #56ABF2;
+}
+.init-social-icons a .face{
+  padding-left:8px ;
+  padding-right:8px ;
+}
+.init-social-icons a .face:hover {
+  background-color: #3A559F;
+  padding-left:8px ;
+  padding-right:8px ;
+}
+.init-footer-reserved{
+  color:#fff;
+  opacity: 0.8;
+  margin-top: -1%;
 }
