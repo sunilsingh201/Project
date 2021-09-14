@@ -564,3 +564,67 @@ footer {
   opacity: 0.8;
   margin-top: -1%;
 }
+
+
+
+
+
+.init-login-section{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.init-login-section h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+.init-login-section .init-text {
+  color:#E96D28;
+  font-weight: 600;
+}
+.init-login-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+}
+form{
+  margin-top:15%;
+  margin-bottom:20%;
+}
+.init-login-name,.init-login-password,.init-login-submit{
+  margin-top:5%;
+  width: 100%;
+}
+input[type=text],input[type=password],button{
+  width: 100%;
+  outline: none;
+  border:1px solid #7a7a7a;
+  padding: 3%;
+ 
+}
+button{
+  background-color:#468DC4;
+  color:#fff;
+  outline: none;
+  border: none;
+  text-align: center;
+  
+
+}
+button[type=submit]{
+  border-radius: 5px;
+}
+.init-login-or{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+
+}
+.init-intial {
+  font-size: 14px;
+}
