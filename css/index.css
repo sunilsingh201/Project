@@ -628,3 +628,6 @@ button[type=submit]{
 .init-intial {
   font-size: 14px;
 }
+.init-small{
+  font-size: 10px;
+}
