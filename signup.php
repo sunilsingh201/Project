@@ -71,7 +71,7 @@
                             
                         }
                         else if($_GET["error"] == "invalid_username"){
-                            echo '<script>alert("Wrong Password");</script>';
+                            echo '<script>alert("Invalid Username ");</script>';
             
                         }
                         
