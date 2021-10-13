@@ -278,7 +278,7 @@ header:hover .owl-next {
 .figure-caption-head {
   margin-top: -35px;
 }
-figure img:hover {
+.init-history figure img:hover {
   transform: scale(1.05);
   transition: 0.5s ease;
   cursor: pointer;
@@ -630,4 +630,98 @@ button[type=submit]{
 }
 .init-small{
   font-size: 10px;
+}
+.init-app-title{
+  margin-top:40px;
+}
+.init-app-title-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.init-app-img figure{
+  height: 80px;
+  width: 80px;
+}
+.init-app-img img{
+  height: 100%;
+  width: auto;
+}
+.init-app-title-name h1{
+  font-weight: 700;
+}
+.init-app-sm-title p{
+  font-size: 12px;
+  color: orange;
+  margin-top: -2%;
+  margin-left: 15px;
+  font-weight: 700;
+}
+.init-app-head h2{
+  font-weight: 600;
+}
+.init-app-instruction-section{
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+.init-app-instruction-title p{
+  margin-top:2%;
+  font-weight: 700;
+}
+.init-inst-num ol li{
+  font-size: 15px;
+}
+.init-app-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.init-mar{
+  margin-bottom: 5%;
+  display:block;
+}
+.init-margin{
+  margin-top: 5%;
+  display: inline-block;
+}
+.init-flex{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+.init-app-fees,.init-app-left,.init-app-right{
+  display: flex;
+}
+/* responsiveness start here */
+
+@media only screen and (max-width:480px){
+  
+.init-header-top {
+  background-color: #096bdb;
+  padding: 0px;
+}
+.init-header-top-content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.init-header-top-content a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 2% 0 0;
+}
+.init-header-top-content a:hover {
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.init-shift {
+  margin-right: 5px;
+}
+
+
+
 }

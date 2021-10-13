@@ -70,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                 if($user_data['password'] === $var_password)
                 {
                     $_SESSION['user_id'] = $user_data['user_id'];
-                    header("Location: index.html");
+                    header("Location: application.html");
                     die;
                 }
             }
